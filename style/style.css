@@ -224,3 +224,40 @@ header{
     color: white;
     text-align: center;
 }
+.list{
+    padding: 50px;
+    background-color: lightblue;
+}
+.list-item{
+    font-size: 18px;
+}
+/* .list-item:nth-child(odd){
+    background-color: red;
+}
+.list-item:nth-child(even){
+    background-color: lightgreen;
+}
+.list-item:first-child{
+    text-align: center;
+}
+.list-item:last-child{
+    text-align: center;
+}
+.list-item:not(:last-child){
+    text-align: center;
+}
+.list-item:nth-child(2){
+    background-color: red;
+}
+.last-item::first-letter{
+    font-size: 50px;
+}
+*/
+.list-item:hover{
+    color: red;
+}
+.main-button button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(84, 28, 28)
+}
